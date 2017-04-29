@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		46A1F6DB1EB538B7000A2D37 /* fat_script_framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46A1F6DC1EB538B7000A2D37 /* Build configuration list for PBXAggregateTarget "fat_script_framework" */;
+			buildPhases = (
+				46A1F6E31EB53C9A000A2D37 /* ShellScript */,
+			);
+			dependencies = (
+				46A1F6E01EB53BA7000A2D37 /* PBXTargetDependency */,
+			);
+			name = fat_script_framework;
+			productName = fat_script_framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		46A1F6AE1EB5258E000A2D37 /* fat_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A1F6AC1EB5258E000A2D37 /* fat_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A1F6B51EB525D7000A2D37 /* MyAwesomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1F6B41EB525D7000A2D37 /* MyAwesomeClass.swift */; };
+		46A1F6B91EB527E1000A2D37 /* MyAwesomeObjCClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A1F6B71EB527E1000A2D37 /* MyAwesomeObjCClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A1F6BA1EB527E1000A2D37 /* MyAwesomeObjCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A1F6B81EB527E1000A2D37 /* MyAwesomeObjCClass.m */; };
+		46A1F6D41EB537B3000A2D37 /* nonscript_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A1F6D21EB537B3000A2D37 /* nonscript_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A1F6D81EB537C2000A2D37 /* MyAwesomeObjCClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A1F6B71EB527E1000A2D37 /* MyAwesomeObjCClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A1F6D91EB537C8000A2D37 /* MyAwesomeObjCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A1F6B81EB527E1000A2D37 /* MyAwesomeObjCClass.m */; };
+		46A1F6DA1EB537CB000A2D37 /* MyAwesomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1F6B41EB525D7000A2D37 /* MyAwesomeClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A1F6DF1EB53BA7000A2D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A1F6A01EB5258E000A2D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A1F6CF1EB537B3000A2D37;
+			remoteInfo = nonscript_framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46A1F6A91EB5258E000A2D37 /* fat_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fat_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A1F6AC1EB5258E000A2D37 /* fat_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fat_framework.h; sourceTree = "<group>"; };
+		46A1F6AD1EB5258E000A2D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A1F6B41EB525D7000A2D37 /* MyAwesomeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAwesomeClass.swift; sourceTree = "<group>"; };
+		46A1F6B71EB527E1000A2D37 /* MyAwesomeObjCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAwesomeObjCClass.h; sourceTree = "<group>"; };
+		46A1F6B81EB527E1000A2D37 /* MyAwesomeObjCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAwesomeObjCClass.m; sourceTree = "<group>"; };
+		46A1F6D01EB537B3000A2D37 /* nonscript_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nonscript_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A1F6D21EB537B3000A2D37 /* nonscript_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nonscript_framework.h; sourceTree = "<group>"; };
+		46A1F6D31EB537B3000A2D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A1F6A51EB5258E000A2D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1F6CC1EB537B3000A2D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A1F69F1EB5258E000A2D37 = {
+			isa = PBXGroup;
+			children = (
+				46A1F6AB1EB5258E000A2D37 /* fat_framework */,
+				46A1F6D11EB537B3000A2D37 /* nonscript_framework */,
+				46A1F6AA1EB5258E000A2D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A1F6AA1EB5258E000A2D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A1F6A91EB5258E000A2D37 /* fat_framework.framework */,
+				46A1F6D01EB537B3000A2D37 /* nonscript_framework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A1F6AB1EB5258E000A2D37 /* fat_framework */ = {
+			isa = PBXGroup;
+			children = (
+				46A1F6B71EB527E1000A2D37 /* MyAwesomeObjCClass.h */,
+				46A1F6B81EB527E1000A2D37 /* MyAwesomeObjCClass.m */,
+				46A1F6B41EB525D7000A2D37 /* MyAwesomeClass.swift */,
+				46A1F6AC1EB5258E000A2D37 /* fat_framework.h */,
+				46A1F6AD1EB5258E000A2D37 /* Info.plist */,
+			);
+			path = fat_framework;
+			sourceTree = "<group>";
+		};
+		46A1F6D11EB537B3000A2D37 /* nonscript_framework */ = {
+			isa = PBXGroup;
+			children = (
+				46A1F6D21EB537B3000A2D37 /* nonscript_framework.h */,
+				46A1F6D31EB537B3000A2D37 /* Info.plist */,
+			);
+			path = nonscript_framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46A1F6A61EB5258E000A2D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1F6AE1EB5258E000A2D37 /* fat_framework.h in Headers */,
+				46A1F6B91EB527E1000A2D37 /* MyAwesomeObjCClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1F6CD1EB537B3000A2D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1F6D41EB537B3000A2D37 /* nonscript_framework.h in Headers */,
+				46A1F6D81EB537C2000A2D37 /* MyAwesomeObjCClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46A1F6A81EB5258E000A2D37 /* fat_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A1F6B11EB5258F000A2D37 /* Build configuration list for PBXNativeTarget "fat_framework" */;
+			buildPhases = (
+				46A1F6A41EB5258E000A2D37 /* Sources */,
+				46A1F6A51EB5258E000A2D37 /* Frameworks */,
+				46A1F6A61EB5258E000A2D37 /* Headers */,
+				46A1F6A71EB5258E000A2D37 /* Resources */,
+				46A1F6B61EB52698000A2D37 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fat_framework;
+			productName = fat_framework;
+			productReference = 46A1F6A91EB5258E000A2D37 /* fat_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46A1F6CF1EB537B3000A2D37 /* nonscript_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A1F6D51EB537B3000A2D37 /* Build configuration list for PBXNativeTarget "nonscript_framework" */;
+			buildPhases = (
+				46A1F6CB1EB537B3000A2D37 /* Sources */,
+				46A1F6CC1EB537B3000A2D37 /* Frameworks */,
+				46A1F6CD1EB537B3000A2D37 /* Headers */,
+				46A1F6CE1EB537B3000A2D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nonscript_framework;
+			productName = nonscript_framework;
+			productReference = 46A1F6D01EB537B3000A2D37 /* nonscript_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A1F6A01EB5258E000A2D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					46A1F6A81EB5258E000A2D37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					46A1F6CF1EB537B3000A2D37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					46A1F6DB1EB538B7000A2D37 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46A1F6A31EB5258E000A2D37 /* Build configuration list for PBXProject "fat_framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46A1F69F1EB5258E000A2D37;
+			productRefGroup = 46A1F6AA1EB5258E000A2D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A1F6A81EB5258E000A2D37 /* fat_framework */,
+				46A1F6CF1EB537B3000A2D37 /* nonscript_framework */,
+				46A1F6DB1EB538B7000A2D37 /* fat_script_framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A1F6A71EB5258E000A2D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1F6CE1EB537B3000A2D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A1F6B61EB52698000A2D37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nexit\n\n# Based in cromandini script: https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79\n\n# You can uncomment next line to force and error if any process of this script fails\nset -e\n\n# Avoid infinite recursion with this condition\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n\nexport ALREADYINVOKED=\"true\"\n\n# Define the target name. Remember you could use the xcode-alias ${TARGET_NAME}\n# if you are including this script into the target that will generate your framework.\n# If you include this script into an \"Aggregate\" simply include your target name\n# manually\nTARGET=\"${TARGET_NAME}\"\n\n# the directory where 'fat'-framework will be stored\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device (first line) and Simulator (second one) versions\nxcodebuild -target \"${TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET}.framework/Modules/${TARGET}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET}.framework/Modules/${TARGET}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory.\n# In this step the iphoneos archs (arm64+armv7) will be combined with iphonesimulator archs (i386+x86_64) and\n# an unique fat library file will be created with this four architectures\n# More information: https://ss64.com/osx/lipo.html\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET}.framework/${TARGET}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET}.framework/${TARGET}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET}.framework/${TARGET}\"\n\n# Step 5. Convenience step to open the project's directory in Finder\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n";
+		};
+		46A1F6E31EB53C9A000A2D37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n# Based in cromandini script: https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79\n\n# You can uncomment next line to force and error if any process of this script fails\nset -e\n\n# Avoid infinite recursion with this condition\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n\nexport ALREADYINVOKED=\"true\"\n\n# Define the target name. Remember you could use the xcode-alias ${TARGET_NAME}\n# if you are including this script into the target that will generate your framework.\n# If you include this script into an \"Aggregate\" simply include your target name\n# manually\nTARGET=nonscript_framework\n\n# the directory where 'fat'-framework will be stored\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device (first line) and Simulator (second one) versions\nxcodebuild -target \"${TARGET}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET}.framework/Modules/${TARGET}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET}.framework/Modules/${TARGET}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory.\n# In this step the iphoneos archs (arm64+armv7) will be combined with iphonesimulator archs (i386+x86_64) and\n# an unique fat library file will be created with this four architectures\n# More information: https://ss64.com/osx/lipo.html\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${TARGET}.framework/${TARGET}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET}.framework/${TARGET}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET}.framework/${TARGET}\"\n\n# Step 5. Convenience step to open the project's directory in Finder\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A1F6A41EB5258E000A2D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1F6BA1EB527E1000A2D37 /* MyAwesomeObjCClass.m in Sources */,
+				46A1F6B51EB525D7000A2D37 /* MyAwesomeClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1F6CB1EB537B3000A2D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A1F6DA1EB537CB000A2D37 /* MyAwesomeClass.swift in Sources */,
+				46A1F6D91EB537C8000A2D37 /* MyAwesomeObjCClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46A1F6E01EB53BA7000A2D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A1F6CF1EB537B3000A2D37 /* nonscript_framework */;
+			targetProxy = 46A1F6DF1EB53BA7000A2D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46A1F6AF1EB5258E000A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46A1F6B01EB5258E000A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46A1F6B21EB5258F000A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = fat_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daviwiki.fat-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46A1F6B31EB5258F000A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = fat_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daviwiki.fat-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46A1F6D61EB537B3000A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = nonscript_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daviwiki.nonscript-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46A1F6D71EB537B3000A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = nonscript_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daviwiki.nonscript-framework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46A1F6DD1EB538B7000A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46A1F6DE1EB538B7000A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A1F6A31EB5258E000A2D37 /* Build configuration list for PBXProject "fat_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A1F6AF1EB5258E000A2D37 /* Debug */,
+				46A1F6B01EB5258E000A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A1F6B11EB5258F000A2D37 /* Build configuration list for PBXNativeTarget "fat_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A1F6B21EB5258F000A2D37 /* Debug */,
+				46A1F6B31EB5258F000A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46A1F6D51EB537B3000A2D37 /* Build configuration list for PBXNativeTarget "nonscript_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A1F6D61EB537B3000A2D37 /* Debug */,
+				46A1F6D71EB537B3000A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46A1F6DC1EB538B7000A2D37 /* Build configuration list for PBXAggregateTarget "fat_script_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A1F6DD1EB538B7000A2D37 /* Debug */,
+				46A1F6DE1EB538B7000A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A1F6A01EB5258E000A2D37 /* Project object */;
+}
